@@ -1,0 +1,45 @@
+<style>
+div.container {
+    width: 100%;  
+}
+header{
+     height:100px;
+    color:blue;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav{
+    height:30px
+    background color red;
+}
+
+aside.right{
+    background-color: blue;
+    height: 1000px;
+    float: right;
+    width:200px;
+    color: black;   
+}
+aside.left{
+    background-color: blue;
+    height: 1000px;
+    float: left;
+    width:200px;    
+}
+
+footer {
+    height:95px;
+    color: white;
+    background-color: blue;
+    clear: left;
+    text-align: center;
+}
+article {
+    height:1000px;
+    background-color: lightblue;
+    border:"10"align="center";
+}
+
+</style>
