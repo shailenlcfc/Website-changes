@@ -1,46 +1,8 @@
-h1{
-    background-color: rgb(209, 16, 16);
-    color: black;
-    padding: 20px;
-    grid-area: header;
-}
-
-p1{
-    color:rgb(27, 25, 25);
-
-}
-
-body {background-color: aqua;}
-
-
-h1 {
-    display: grid;
-}
-
-p1 {
-    display: main;
-}
-p1 {
-    background-color:rebeccapurple;
-    color: black;
-    padding: 10px;
-    grid-area: main;
-}
-nav {
-    background-color:lightcyan;
-    color: sienna;
-    padding: 10px;
-    float: left;
-    list-style-type: none;
-    display: menue;
-}
-
-
-.item1 {grid-area:header;}
-.item2 {grid-area:menu; }
-.item3 {grid-area:main; }
-.item4 {grid-area:footer; }
-
+.headingclass {grid-area:header;}
+.menuclass {grid-area:menu; }
+.mainclass {grid-area:main; }
+.rightclass {grid-area:right; }
+.footerclass {grid-area:footer; }
 .grid-container {
 display: grid;
 grid-template:
@@ -48,210 +10,19 @@ grid-template:
 'menu main main main right right'
 'menu footer footer footer footer footer';
 grid-gap: 10px;
-background-color:blue
-padding 10px;
+background-color:rgb(139, 89, 162);
+padding: 10px;
 
 }
 .grid-container > div {
-background-color: rebeccapurple;
+background-color: rgb(10, 144, 233);
 text-align:center;
 padding:20px 0;
- font-style: 40px;
+ font-style: normal;
 
 }
 
-
-
-
-
-
-
-/*index*/
-
-
-
-h2{
-    background-color: rgb(209, 16, 16);
-    color: black;
-    padding: 20px;
-    grid-area: header;
-}
-
-
-
-body {background-color: aqua;}
-
-
-h2 {
-    display: grid;
-}
-
-nav2 {
+.floated_img
+{
     float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
-
-body {
-    display: grid;
-    grid-template-columns: 15%,15%,70%;
-    grid-template-rows: auto;
-    grid-template-areas:"header header nav2"
-                         "main main main"
-                        "footer footer footer"
-
 }
-
-/*porftolio page*/
-
-
-
-
-h3{
-    background-color: rgb(209, 16, 16);
-    color: black;
-    padding: 20px;
-    grid-area: header;
-}
-
-p1{
-    color:rgb(27, 25, 25);
-
-}
-
-body {background-color: aqua;}
-
-
-h3 {
-    display: grid;
-}
-
-p1 {
-    display: main;
-}
-p1 {
-    background-color:rebeccapurple;
-    color: black;
-    padding: 10px;
-    grid-area: main;
-}
-nav {
-    background-color:lightcyan;
-    color: sienna;
-    padding: 10px;
-    grid-area: nav;
-    list-style-type: none;
-}
-
-body {
-    display: grid;
-    grid-template-columns: 15%,15%,70%;
-    grid-template-rows: auto;
-    grid-template-areas:"header header nav"
-                         "main main main"
-                        "footer footer footer"
-
-}
-    
-/*cv page*/
-
-h4{
-    background-color: rgb(209, 16, 16);
-    color: black;
-    padding: 20px;
-    grid-area: header;
-}
-
-p1{
-    color:rgb(27, 25, 25);
-
-}
-
-body {background-color: aqua;}
-
-
-h4 {
-    display: grid;
-}
-
-p1 {
-    display: main;
-}
-p1 {
-    background-color:rebeccapurple;
-    color: black;
-    padding: 10px;
-    grid-area: main;
-}
-nav {
-    background-color:lightcyan;
-    color: sienna;
-    padding: 10px;
-    grid-area: nav;
-    list-style-type: none;
-}
-
-body {
-    display: grid;
-    grid-template-columns: 15%,15%,70%;
-    grid-template-rows: auto;
-    grid-template-areas:"header header nav"
-                         "main main main"
-                        "footer footer footer"
-
-}
-
-/*site report*/
-
-
-h5{
-    background-color: rgb(209, 16, 16);
-    color: black;
-    padding: 20px;
-    grid-area: header;
-}
-
-p1{
-    color:rgb(27, 25, 25);
-
-}
-
-body {background-color: aqua;}
-
-
-h5 {
-    display: grid;
-}
-
-p1 {
-    display: main;
-}
-p1 {
-    background-color:rebeccapurple;
-    color: black;
-    padding: 10px;
-    grid-area: main;
-}
-nav {
-    background-color:lightcyan;
-    color: sienna;
-    padding: 10px;
-    grid-area: nav;
-    list-style-type: none;
-}
-
-body {
-    display: grid;
-    grid-template-columns: 15%,15%,70%;
-    grid-template-rows: auto;
-    grid-template-areas:"header header nav"
-                         "main main main"
-                        "footer footer footer"
-
-}
-
-/*contact us*/
