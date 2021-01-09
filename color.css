@@ -23,6 +23,12 @@ padding: 10px;
     display:column;
     clear: both;
   }
+{
+h1 {
+  color: blue;
+}
+]
+
 }
 .grid-container > div {
 background-color: rgb(10, 144, 233);
