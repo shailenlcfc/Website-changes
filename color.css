@@ -10,7 +10,7 @@ grid-template:
 'menu main main main right right'
 'menu footer footer footer footer footer';
 grid-gap: 10px;
-background-color:rgb(139, 89, 162);
+background-color:rgb(88, 110, 197);
 padding: 10px;
 .column {
     float: left;
