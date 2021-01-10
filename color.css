@@ -1,3 +1,6 @@
+
+
+
 .headingclass {grid-area:header;}
 .menuclass {grid-area:menu; }
 .mainclass {grid-area:main; }
@@ -9,13 +12,16 @@ grid-template:
 'header header header header header header'
 'menu main main main right right'
 'menu footer footer footer footer footer';
+
 grid-gap: 10px;
 background-color:rgb(88, 110, 197);
 padding: 10px;
+
+
 .column {
     float: left;
     width: 33.33%;
-  }
+}
   
   /* Clear floats after the columns */
   .row:after {
@@ -27,7 +33,7 @@ padding: 10px;
 h1 {
   color: blue;
 }
-]
+
 
 }
 .grid-container > div {
