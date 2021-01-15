@@ -1,62 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="color.css" type="text/css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="mobilecss" href="Mobile.css" type="text/css" />
 
-        <title>Portfolio Home page</title>
-</style>
-    </head>
-    <body>
-        <div class="container grid-container">
-            <div class="headingclass">
-                <h1>Contact page</h1>
-            </div>
-            <div class="menuclass">
-                <ul>
-                    <li>
-                        <a href="index.html">Home page</a>
-                    </li>
-                    <li>
-                        <a href="portfolio%20page.html">portfoliopage</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contactpage</a>
-                    </li>
-                    <li>
-                        <a href="Site%20report.html">reportpage</a>
-                    </li>
-                    <li>
-                        <a href="cv%20page.html">Cvpage</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="mainclass container">
-                <div class="c1">
-                    <h2>Contact form</h2>
-                    <p>Fill in the contact form below to contact me:</p>
+<head>
+    <link rel="stylesheet" href="color.css" type=Text/css />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Contact Page</title>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home Page</a>
+        <a href="portfolio%20page.html">Portfolio Page</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="Site%20report.html">Site Report</a>
+        <a href="cv%20page.html">CV Page</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="container grid-container">
+        <div class="headingclass">
+            <h1>Contact Page</h1>
+        </div>
+        <div class="menuclass">
+            <ul>
+                <li>
+                    <a href="index.html">Home page</a>
+                </li>
+                <li>
+                    <a href="portfolio%20page.html">portfoliopage</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contactpage</a>
+                </li>
+                <li>
+                    <a href="Site%20report.html">reportpage</a>
+                </li>
+                <li>
+                    <a href="cv%20page.html">Cvpage</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mainclass container">
+            <div class="c1">
+                <h2>Contact form</h2>
+                <p>Fill in the contact form below to contact me:</p>
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" />
                 </div>
-                <div class="column row">
-                <label for="fname">Firstname</label> 
-                <input type="text" /> 
-                <label for="fname">Last name</label> 
-                <input type="text" />
-                <label for="Contactform">Message</label> 
-                <textarea id="form" class="c2"></textarea>
-                <form method="get" action="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=13&amp;ct=1610216294&amp;rver=7.0.6737.0&amp;wp=MBI_SSL&amp;wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26RpsCsrfState%3d4c4ddf76-e1c1-a484-d541-a3f1c0f9c61c&amp;id=292841&amp;aadredir=1&amp;whr=outlook.com&amp;CBCXT=out&amp;lw=1&amp;fl=dob%2cflname%2cwld&amp;cobrandid=90015">
+                <div>
+                    <label for="fname">Last Name</label>
+                    <input type="text" />
+                </div>
+                <div>
+                    <label for="Contactform">Message</label>
+                    <textarea id="form" class="c2"></textarea>
+                </div>
+                <form method="get"
+                    action="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=13&amp;ct=1610216294&amp;rver=7.0.6737.0&amp;wp=MBI_SSL&amp;wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26RpsCsrfState%3d4c4ddf76-e1c1-a484-d541-a3f1c0f9c61c&amp;id=292841&amp;aadredir=1&amp;whr=outlook.com&amp;CBCXT=out&amp;lw=1&amp;fl=dob%2cflname%2cwld&amp;cobrandid=90015">
                     <button type="submit">Submit</button>
-                </form></div>
+                </form>
             </div>
         </div>
-        <form>
-            <div class="rightclass"></div>
-            <div class="footerclass">(Copyright) Shailen Patel 2021
+        <div class="rightclass"></div>
+        <div class="footerclass">(Copyright) Shailen Patel 2021
             <p>
                 <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                    <img class="c3" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+                    <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
                 </a>
-            </p></div>
-        </form>
-    </body>
+            </p>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
 </html>

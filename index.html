@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="stylesheet" href="color.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="mobilecss" href="Mobile.css" type="text/css" />
+  <link rel="stylesheet" href="color.css" type=Text/css />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>Portfolio Home page</title>
 </head>
+
 <body>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home Page</a>
+    <a href="portfolio%20page.html">Portfolio Page</a>
+    <a href="contact.html">Contact</a>
+    <a href="Site%20report.html">Site Report</a>
+    <a href="cv%20page.html">CV Page</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
   <div class="container">
     <div class="grid-container">
       <div class="headingclass">
@@ -33,14 +46,29 @@
         </ul>
       </div>
       <div class="mainclass">
-        Hi, I have created this portfolio to show my HTML and CSS skills. I have created 5 pages which include the index page, portfolio page, contact page, CV and a report page. I made sure i added a navigation bar so it's easier to get onto the page of your choice.
+        Hi, I have created this portfolio to show my HTML and CSS skills. I have created 5 pages which include the index
+        page, portfolio page, contact page, CV and a report page. I made sure i added a navigation bar so it's easier to
+        get onto the page of your choice.There a different HTML skills tha have been used in this assignment this
+        includes buttons, navigation bars and images that have been linked.
       </div>
       <div class="rightclass"></div>
       <div class="footerclass">
         (Copyright) Shailen Patel 2021
-        <p><a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a></p>
+        <p><a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a></p>
       </div>
     </div>
   </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </body>
+
 </html>

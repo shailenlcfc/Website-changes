@@ -1,6 +1,3 @@
-
-
-
 .headingclass {grid-area:header;}
 .menuclass {grid-area:menu; }
 .mainclass {grid-area:main; }
@@ -16,26 +13,27 @@ grid-template:
 grid-gap: 10px;
 background-color:rgb(88, 110, 197);
 padding: 10px;
-
+}
 
 .column {
     float: left;
     width: 33.33%;
 }
-  
-  /* Clear floats after the columns */
+  .clearthings{
+clear:both;
+  }
   .row:after {
     content: "";
     display:column;
     clear: both;
   }
-{
+
 h1 {
   color: blue;
 }
 
 
-}
+
 .grid-container > div {
 background-color: rgb(10, 144, 233);
 text-align:center;
@@ -47,4 +45,55 @@ padding:20px 0;
 .floated_img
 {
     float: left;
+}
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #f80f07;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
